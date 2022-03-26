@@ -7,8 +7,7 @@ win = tk.Tk()
 mouse = Controller()
 
 ld = tk.Label(text="Delay(s)").pack()
-e = tk.Entry(text='Delay(S)')
-e.pack()
+e = tk.Entry(text='Delay(S)').pack()
 
 def button():
     sleep(5)
